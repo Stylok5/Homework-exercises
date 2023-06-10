@@ -1,0 +1,9 @@
+[
+{
+  "model": "directors.director",
+  "pk": 1,
+  "fields": {
+    "name": "Chad Jablinsky"
+  }
+}
+]

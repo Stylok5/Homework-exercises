@@ -1,0 +1,15 @@
+[
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "title": "John Wick",
+    "director": 1,
+    "rating": 1,
+    "cover_image": "image.jpg",
+    "genres": [
+      1
+    ]
+  }
+}
+]

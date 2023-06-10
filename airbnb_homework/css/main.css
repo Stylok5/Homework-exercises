@@ -1,0 +1,293 @@
+/*
+google font: Nunito
+
+brand red: #ff5358
+dark red: #e00007
+background grey: #efefef
+title grey: #edefed
+footer grey: #2B2D2E
+*/
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0 11px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 170px;
+  font-weight: bold;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.logo {
+  width: 160px;
+  margin-left: 40px;
+  height: 50px;
+}
+
+.Melbourne {
+  display: flex;
+  background-image: url("/Kostas/airbnb_homework/images/melbourne.jpg");
+  background-color: rgba(46, 46, 46, 0.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  min-height: 95vh;
+  color: white;
+  justify-content: center;
+  margin: 0 -8px 0 -8px;
+}
+
+.Melbourne h1 {
+  font-size: 80px;
+  margin-bottom: -15px;
+}
+
+.neighborhoodstitle {
+  text-align: center;
+}
+
+.neighborhood {
+  cursor: pointer;
+  background-color: #ff5358;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 60px 14px 60px;
+  color: white;
+  border: 0 #ff5358;
+  font-weight: bold;
+}
+
+.neighborhoodstitle p {
+  font-weight: bold;
+}
+
+#melstuff {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lovecomp {
+  display: flex;
+  background-color: #efefef;
+  align-items: center;
+  padding: 70px 0 70px 0;
+  margin: 0 -8px 0 -8px;
+  justify-content: space-around;
+}
+
+.localslove {
+  border: 1px solid rgb(212, 210, 210);
+}
+
+.localslovetitle {
+  padding-left: 20px;
+}
+
+.heart {
+  display: flex;
+  background-color: white;
+  padding: 30px;
+}
+
+.heart p {
+  font-size: 22px;
+  padding-right: 20px;
+}
+
+.imageheart {
+  padding-right: 20px;
+  width: 100px;
+}
+
+.localscomp {
+  border: 1px solid rgb(212, 210, 210);
+}
+
+.localscomptitle {
+  padding-left: 20px;
+}
+
+.chat {
+  display: flex;
+  background-color: white;
+  padding: 30px;
+}
+
+.chat p {
+  font-size: 22px;
+}
+
+.imagechat {
+  padding-right: 20px;
+  width: 100px;
+}
+
+.Neighborhoods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0 150px 0;
+}
+
+.neighborhoodstitle {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.alllocations {
+  display: flex;
+  flex-direction: row;
+}
+
+.Fitzroy {
+  display: flex;
+  background-image: url("/Kostas/airbnb_homework/images/fitzroy.jpg");
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 357px;
+  background-color: rgba(34, 34, 34, 0.6);
+  background-blend-mode: darken;
+  margin: 0 60px 0 60px;
+}
+
+.Fitzroystuffall {
+  display: flex;
+  flex-direction: column;
+  padding-top: 115px;
+  text-align: center;
+  height: 100px;
+}
+.Fitzroy h2 {
+  margin-bottom: -4px;
+}
+
+.Fitzroystuff2 {
+  display: flex;
+  background-color: #efefef;
+  color: black;
+  padding-bottom: 50px;
+  margin: 135px 0 0 0;
+  width: 35vh;
+  padding: 20px 50px 65px 20px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.Klida {
+  display: flex;
+  background-image: url("/Kostas/airbnb_homework/images/st-kilda.jpg");
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 357px;
+  background-color: rgba(46, 46, 46, 0.6);
+  background-blend-mode: darken;
+  margin: 0 60px 0 60px;
+}
+
+.Klidaall {
+  display: flex;
+  flex-direction: column;
+  padding-top: 115px;
+  text-align: center;
+  height: 100px;
+}
+.Klida h2 {
+  margin-bottom: -4px;
+}
+
+.Klidastuff2 {
+  display: flex;
+  background-color: #efefef;
+  color: black;
+  margin: 135px 0 0 0;
+  width: 35vh;
+  padding: 20px 50px 65px 20px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.BusinessDistrict {
+  display: flex;
+  background-image: url("/Kostas/airbnb_homework/images/central-business-district.jpg");
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgba(46, 46, 46, 0.6);
+  background-blend-mode: darken;
+  margin: 0 60px 0 60px;
+  height: 380px;
+}
+
+.BusinessDistrcitall {
+  display: flex;
+  flex-direction: column;
+  padding-top: 115px;
+  text-align: center;
+  height: 100px;
+}
+.BusinessDistrict h2 {
+  margin-bottom: -4px;
+}
+
+.Businessstuff2 {
+  display: flex;
+  background-color: #efefef;
+  color: black;
+  padding: 20px 50px 43px 20px;
+  margin: 135px 0 0 0;
+  width: 35vh;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.Finalneighborhood {
+  cursor: pointer;
+  background-color: #ff5358;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 60px 14px 60px;
+  color: white;
+  border: 0 #ff5358;
+  font-weight: bold;
+  margin-left: 85vh;
+  margin-bottom: 140px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #2b2d2e;
+  align-items: center;
+  color: white;
+  height: 20vh;
+  margin: 5px -10px -10px -10px;
+  font-size: 20px;
+}
+
+span {
+  border-top: 1px solid #b0b0b0;
+  width: 96%;
+  margin-left: -10px;
+  text-align: center;
+  padding-top: 40px;
+}

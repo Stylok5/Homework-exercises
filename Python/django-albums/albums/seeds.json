@@ -1,0 +1,28 @@
+[
+{
+  "model": "albums.album",
+  "pk": 2,
+  "fields": {
+    "title": "confesisons",
+    "artist": 1,
+    "cover_image": "image.jpg",
+    "owner": 2,
+    "genres": [
+      1
+    ]
+  }
+},
+{
+  "model": "albums.album",
+  "pk": 3,
+  "fields": {
+    "title": "Desole",
+    "artist": 1,
+    "cover_image": "hi.jpg",
+    "owner": 2,
+    "genres": [
+      1
+    ]
+  }
+}
+]

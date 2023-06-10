@@ -1,0 +1,41 @@
+.inputsForm {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid rgb(167, 152, 99);
+  border-radius: 12px;
+
+  & button {
+    border-radius: 12px;
+    width: 110px;
+    margin-left: 44px;
+    margin-bottom: 5px;
+  }
+}
+
+.inputText {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid rgb(104, 103, 103);
+  border-radius: 12px;
+  background-color: rgb(243, 218, 159);
+}
+
+.inputText::placeholder {
+  color: rgb(27, 77, 100);
+}
+
+.registerPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}

@@ -1,0 +1,44 @@
+.lines {
+  list-style: none;
+  margin: -4px;
+}
+
+h1 {
+  color: rgb(253, 253, 253);
+  background-color: rgb(39, 39, 121);
+  margin-left: 10px;
+  border: 1px solid rgb(39, 39, 121);
+  border-width: 20px;
+  width: 360px;
+  margin-left: 0px;
+  margin-bottom: -20px;
+}
+
+.all {
+  width: 400px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.update {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+section {
+  border: 1px solid rgb(39, 39, 121);
+  border-width: 20px;
+  background-color: rgb(142, 212, 226);
+}
+
+.status {
+  font-weight: bold;
+}
+
+.name {
+  font-size: 20px;
+}

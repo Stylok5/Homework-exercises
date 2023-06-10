@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.progress {
+  width: 300px;
+  height: 20px;
+  background: rgb(249, 248, 248);
+  border-radius: 50px;
+  border: 2px solid black;
+  overflow: hidden;
+  margin: 50px 0 0 18px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.progressFill {
+  width: 0%;
+  height: 100%;
+  background: #727373;
+  transition: all 0.2s;
+}
+
+#arrow {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 2px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  margin-left: -10px;
+}
+
+.progressText {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  transform: translateY(-100%);
+  font: bold 14px "Quicksand", sans-serif;
+  color: rgb(9, 9, 9);
+}
+
+#all {
+  position: relative;
+  border: 2px solid black;
+  width: 460px;
+  height: 225px;
+}
+
+.target {
+  text-align: center;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 85px;
+  height: 65px;
+  margin-left: 349px;
+  margin-top: -50px;
+  padding-bottom: 8px;
+}
+
+.amountNeeded {
+  text-align: center;
+}
+.amountNumber {
+  font-weight: bold;
+}
+
+.targetNumber {
+  margin-top: -12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.targetText {
+  margin-top: 12px;
+}
+
+.threeButtons {
+  margin-left: 170px;
+  margin-top: -5px;
+}
+.button {
+  cursor: pointer;
+  width: 35px;
+  margin: 0 2px 0 2px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(190, 188, 188);
+}

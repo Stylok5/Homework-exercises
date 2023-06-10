@@ -1,0 +1,14 @@
+{
+  "name": "js-problems-101",
+  "version": "1.0.0",
+  "description": "In the starter code you have a file containing a number of tests, and a file with a series of problems to solve:",
+  "main": "problems.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.2.7"
+  }
+}

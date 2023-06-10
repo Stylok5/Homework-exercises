@@ -1,0 +1,74 @@
+@import "./footer.scss";
+@import "./header.scss";
+@import "./registerlogin.scss";
+@import "./addyourbeerpage.scss";
+@import "./beerpage.scss";
+
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  background-image: linear-gradient(#caca87, rgb(105, 174, 192));
+  min-height: 100vh;
+}
+
+img {
+  width: 180px;
+}
+
+button {
+  color: rgb(237, 228, 102);
+  padding: 15px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgb(154, 74, 74);
+  cursor: pointer;
+}
+
+#root {
+  & a {
+    text-decoration: none;
+  }
+}
+
+.beersPageContainer {
+  margin-top: -35px;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.backToBeers {
+  color: rgb(158, 119, 55);
+  font-weight: bold;
+}
+
+.beerCardButton {
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+img {
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.welcome {
+  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.beers {
+  margin-top: 5px;
+}
+
+.homeButton {
+  margin-left: 25px;
+}
+
+h1 {
+  color: rgb(21, 62, 17);
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  height: 600px;
+  width: 600px;
+}
+
+body {
+  background-image: url("https://4kwallpapers.com/images/wallpapers/daft-punk-electronic-music-duo-3322x1920-1928.jpg");
+  background-position: 50%;
+  margin-bottom: 720px;
+  background-size: cover;
+}
+
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid div {
+  border: 2px solid;
+  border-image: linear-gradient(90deg, rgb(31, 148, 198), rgb(240, 35, 76)) 1;
+  flex-grow: 1;
+  height: 25%;
+  width: 25%;
+  color: rgb(230, 226, 226);
+  padding-top: 60px;
+  text-align: center;
+  cursor: pointer;
+  background-color: black;
+  font-size: 19px;
+  white-space: nowrap;
+  font-family: "Orbitron", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.grid div:hover {
+  background-image: url("https://cdn.dribbble.com/users/942040/screenshots/5365825/800x600.gif");
+  background-size: 270px;
+  background-position: 50%;
+}

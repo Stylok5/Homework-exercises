@@ -1,0 +1,9 @@
+[
+{
+  "model": "ratings.rating",
+  "pk": 1,
+  "fields": {
+    "number": 8
+  }
+}
+]

@@ -1,0 +1,9 @@
+[
+{
+  "model": "artists.artist",
+  "pk": 1,
+  "fields": {
+    "name": "logic"
+  }
+}
+]

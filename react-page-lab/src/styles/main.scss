@@ -1,0 +1,61 @@
+.title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.times {
+  font-weight: initial;
+}
+
+.hours {
+  font-weight: bold;
+  margin-bottom: -14px;
+}
+
+.donorData {
+  display: flex;
+  & li {
+    padding-right: 25px;
+  }
+  & .mail {
+    list-style: none;
+    margin-left: -40px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.borderLine1 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(160, 159, 159);
+  border-radius: 5%;
+}
+
+.amounts {
+  margin-bottom: -12px;
+}
+
+.admission {
+  margin-bottom: -15px;
+}
+
+.admissionTitle {
+  margin-top: 30px;
+}
+
+.borderLine2 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(160, 159, 159);
+  border-radius: 5%;
+  margin-top: 30px;
+}
